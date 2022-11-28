@@ -9,28 +9,61 @@
   </head>
   <body>
     <!-- Positioning -->
-
+<div class="relative h-12 w-1/2 bg-red-200">
+  <p>Parent Element</p>
+  <div class="absolute bottom-0 right-0 bg-red-500">Absolute Child</div>
+</div>
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Top right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Span top edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 top-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
     <!-- Span left edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 top-0 bottom-0 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Span right edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 top-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Span bottom edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
     <!-- Display Classes -->
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, dolores! <span class="inline font-bold">This is inline</span> Ducimus officia obcaecati<span class="font-bold inline-block">This is inline bloc</span> 
+      consequuntur labore a est animi, accusantium <span class="block font-bold">Block</span> vel ad omnis. <span class="hidden font-bold">Block</span> Fuga nihil tenetur expedita perspiciatis veritatis repellendus error vero debitis et voluptates. Incidunt quas qui ut. Voluptas blanditiis necessitatibus aperiam maxime saepe! Praesentium voluptatibus ea porro et ad!
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500 z-10">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-600 z-20">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700 z-30">5</div>
+    </div>
 
     <!-- Floats -->
+    
   </body>
 </html>
 
